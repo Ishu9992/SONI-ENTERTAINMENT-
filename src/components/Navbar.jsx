@@ -45,7 +45,7 @@ export default function Navbar() {
           className="rounded-full bg-castle-gold text-castle-bg text-sm font-semibold px-4 py-2 hover:bg-castle-goldSoft transition-colors"
         >
           Go VIP
-        </Link>
+        </Link><Link href="/login" className="text-sm text-castle-muted hover:text-castle-ink transition-colors">Sign In</Link>
         <Link href="/settings" className="w-9 h-9 rounded-full bg-castle-amethyst grid place-items-center text-sm font-semibold">
           U
         </Link>
